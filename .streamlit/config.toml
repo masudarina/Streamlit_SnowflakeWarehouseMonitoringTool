@@ -1,14 +1,5 @@
 [theme]
 #######################
-# FOR YAAMNOTELINEAPP
-#######################
-# primaryColor="#87cefa"
-# backgroundColor="#FFFFFF"
-# secondaryBackgroundColor = '#80c342'
-# textColor="#262730"
-# font="sans serif"
-
-#######################
 # FOR DATACATALOG
 #######################
 primaryColor="#87cefa"
