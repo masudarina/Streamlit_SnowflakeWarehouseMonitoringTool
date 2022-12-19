@@ -20,13 +20,8 @@ from dispResult import *
 ##################################################
 # パラメーター設定 
 ##################################################
-config_ini = configparser.ConfigParser()
-config_ini.read('config.ini', encoding='utf-8')
- 
-##################################################
-# 変数設定
-##################################################
-snow_image = config_ini['COMMON']['SNOW_IMAGE']
+current_path = os.path.dirname(os.path.abspath(__file__))
+snow_image = os.path.join(current_path, 'Snowflake.png')
 
 ##################################################
 # タイトル設定
