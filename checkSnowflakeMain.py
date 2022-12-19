@@ -13,7 +13,6 @@
 import snowflake.connector
 import streamlit as st
 from PIL import Image
-import configparser
 from Utils import *
 from dispResult import *
 
